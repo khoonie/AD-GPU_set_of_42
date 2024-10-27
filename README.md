@@ -1,5 +1,8 @@
-# AD-GPU_set_of_42
-Modified files for NVidia Docker container with Autodock Vina
+# AD-GPU_set_of_42 with AutoDock-GPU
+
+Hosted in Nvidia NGC Catalog, a Nvidia Docker container that has been setup to utilize the host machine's Nvidia GPU for processing. The CUDA Driver + Host OS running on top of Nvidia GPU and Server/PC is assumed to be already installed. The containers with AutoDock-GPU application + CUDA Toolkit runs on top of Docker Engine or Singularity.
+
+The original check.py sample file had some errors/adjustments needed. This repo contains the modified check.py file and some instructions on how to navigate some errors encountered. Note that WSL2 + Windows 11 Pro is used. If pure Linux (Ubuntu, etc.) distros are used there may be other or less issues (not tested).
 
 ## Original Instructions
 https://catalog.ngc.nvidia.com/orgs/hpc/containers/autodock
